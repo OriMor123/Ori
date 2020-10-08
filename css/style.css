@@ -1,0 +1,155 @@
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  margin: 50px auto 10px auto;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #9cada4;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #f56a79;
+}
+
+.top-container {
+  background-color: #fbe2e5;
+  position: relative;
+  padding-top: 50px;
+  color: #9cada4;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+a {
+  color: #aaaaaa;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+}
+hr{
+  padding-top: 40px;
+  border: 5px;
+  border-top: 5px dotted #fabea7;
+  width: 7%
+}
+
+.middle-container{
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f6f6f6;
+
+}
+
+.bottom-container{
+  background-color: #fabea7;
+  padding-top: 50px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills{
+  margin-bottom: 1px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 70px;
+}
+
+.heart-img {
+  width: 25%;
+  float: right;
+  position: relative;
+  right: 100px;
+  bottom: 20px;
+}
+
+.ori-img {
+  width: 13%;
+}
+
+.profile{
+  margin-bottom: 60px;
+}
+
+.footer-link{
+  padding:5px;
+}
+
+.contact-me{
+  marging-top: 0px;
+}
+
+.if-you {
+  color:  #9cada4;
+}
+
+.BUTTON_LEG {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FABEA7;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #767C77;
+   border: solid #FABEA7 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_LEG:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
